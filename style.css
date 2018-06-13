@@ -1,7 +1,7 @@
 .running {
     background-color: lightcyan;
 }
-.numberToMatch {
+.mainNumber {
     background-color: lightyellow;
 }
 .winColor {

@@ -2,8 +2,11 @@
     background-color: lightcyan;
 }
 .numberToMatch {
-    background-color: lightsalmon;
+    background-color: lightyellow;
 }
-.winsLosses {
+.winColor {
     background-color: lightgreen;
+}
+.lossColor {
+    background-color: lightsalmon;
 }

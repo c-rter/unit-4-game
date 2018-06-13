@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jewel Game</title>
+  <meta name="description" content="Assignment4">
+  <meta name="author" content="c-rter">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<h1>CrystalsCollector</h1>
+<p>You will be given a random number at the start of the game.</p>
+<p>There are four crystals below. By clicking on a crystal you will
+add a specific amount of points to your total score.</p>
+<p>You win the game by matching your total score to random number,
+you lose the game if your total score goes above the random number.
+</p>
+<p>The value of each crystal is hidden from you until you click on it.</p>
+<p>Each time when the game starts, the game will change the values
+    of each crystal.
+</p>
+<div class="mainNumber"><h1>Match This: <span id="mainNumberToMatch"></span></h1></div>
+
+<div class="winsLosses">
+<h1>Wins: <span id="winCount"></span></h1>
+<h1>Losses: <span id="lossCount"></span></h1>
+</div>
+
+<input id ="crystal1" type="image" src="crystal1.png"/></input>
+<input id ="crystal2" type="image" src="crystal2.png"/></input>
+<input id ="crystal3" type="image" src="crystal3.png"/></input>
+<input id ="crystal4" type="image" src="crystal4.png"/></input>
+
+<div class="running">
+    <h1>Running Total:<span id="runningTotalScore"></span></h1>
+</div>
+  <script src="game.js"></script>
+</body>
+</html>
+
+<!--1-12 crystals 18-120 guessnumber-->

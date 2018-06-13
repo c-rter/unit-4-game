@@ -1,0 +1,9 @@
+.running {
+    background-color: lightcyan;
+}
+.numberToMatch {
+    background-color: lightsalmon;
+}
+.winsLosses {
+    background-color: lightgreen;
+}
